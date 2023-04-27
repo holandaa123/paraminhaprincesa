@@ -1,0 +1,164 @@
+/*cabeçario*/
+header {
+    font-stretch: ultra-condensed;
+    display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+      background-color: rgb(107, 0, 0);
+       padding: 20px 20px;
+       color:rgb(255, 255, 255)
+    
+     }
+
+     topo{
+        font-family: Jazz LET, fantasy;
+        display: inline-flex;
+        width: 500px;
+        height: 100px;
+        justify-content: space-evenly;
+        align-items: center;
+     }
+     local{
+        align-items: center;
+         float: right;
+     }
+     /*botoes do topo*/
+  
+ button{
+    border-radius: 30px;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+}
+button{
+    display: inline;
+    transform: scale(1.10);
+}
+ /* fim do botoes do topo*/
+
+/* fim do cabeçario*/
+
+   div.container-a1 {
+    display: inline-block;
+       background: rgba(143, 0, 0, 0.808);
+       color: #FFF;
+   }
+
+   div {
+    display: flex;
+       background:rgba(143, 0, 0, 0.13);
+       color: #000000;
+       display: table-cell;
+       width: 250px;
+         height: 250px;
+            display: inline-block;
+                 background-color: rgba(255, 255, 255, 0);
+                        font-size: 16px;
+                             padding: 0px;
+                               margin: 0%;
+                                margin-left:20%;
+                                    height:5%;
+                                     width:20%;
+                                        margin-top:5%;
+                                    margin-left:40%;
+                                 margin-top:5%;
+                                background-color:rgba(143, 0, 0, 0.801);;   
+                            height:5%;
+                     width:20%;
+               margin-left:10%;
+
+   }
+
+   body{
+    display: block;
+   background-image: url(https://img.freepik.com/fotos-gratis/coracoes-de-dia-dos-namorados-de-texteis-em-rosa_1220-3829.jpg?w=996&t=st=1682604408~exp=1682605008~hmac=525d130c5466dfa3a273d354ca92fb213600110a9bd85af1f7c59ce00cc9ea2c);
+   background-repeat: no-repeat;
+   background-size: cover;
+   float: left;
+
+   } 
+ container0{
+    margin-top: 5%;
+    margin-left: 5%;
+    display: inline-flex;
+ }
+
+    container-a1 {
+        display: flex;
+       width: 250px;
+           height: 250px;
+            display: inline-flex;
+                background-color: rgb(0, 0, 0)(255, 100, 100);
+                    font-size: 16px;
+                       padding: 4px;
+                           margin: 4px;
+                            margin-left:10%;
+                                margin-left:20%;
+                                    background-color:rgba(255, 255, 255, 0);   
+                                        height:5%;
+                                       width:20%;
+                                 margin-top:0%;
+                             margin-left:60%;
+                        margin-top:5%;
+                    background-color:rgba(255, 255, 255, 0);   
+                   height:5%;
+             width:20%;
+       margin-left:10%;
+   }
+   container-a { 
+    
+       display: inline-block;
+  
+       font-size: 16px;
+       padding: 10px;
+       font-size: 16px;
+       padding: 10px;
+         color: #000000;
+  margin-left:10%; 
+           background-color:rgba(143, 0, 0, 0.808); 
+           height:5%;
+           width:20%;
+           margin-top:0%;
+            margin-left:60%;
+           margin-top:1%;
+             background-color:rgba(143, 0, 0, 0.808); 
+           margin-left:10%;
+   }
+
+   container-2{
+ 
+    margin-left: 10%;
+    font-size: 16px;
+           background-color:rgba(255, 255, 255, 0); 
+           align-items: center;
+            margin-left:8%;
+            margin-top: 7%;
+                 
+   }
+    video{
+    margin-top: 5%;
+       align-items: center;
+    }   
+   container-b {
+    margin-top: 5%;
+
+   }
+   
+  
+img{
+  margin-top: 5%;
+    margin-left:10%;
+}
+@media screen (max-width: 768px){
+    .produto-container{
+        width:100%;
+        flex-direction: column;
+    }
+    
+}
+.produto-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+    
